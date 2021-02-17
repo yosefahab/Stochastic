@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Stochastic</string>
+    <string name="coinFlip">Coin</string>
+    <string-array name="themes">
+        <item>Morning</item>
+        <item>Midnight</item>
+        <item>Frosty</item>
+        <item>Colorful</item>
+        <item>Black and White</item>
+        <item> </item>
+    </string-array>
+</resources>

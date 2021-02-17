@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RollDice">
+
+    <Button
+        android:id="@+id/DiceRollBtn"
+        android:layout_width="139dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rounded_corners"
+        android:text="Roll"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:onClick="DiceRoll"
+        android:fontFamily="casual"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DiceFace"
+        app:layout_constraintVertical_bias="0.186" />
+
+    <TextView
+        android:id="@+id/DiceFace"
+        android:layout_width="192dp"
+        android:layout_height="177dp"
+        android:gravity="center"
+        android:text="Die"
+        android:background="@drawable/circular_corners"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.256" />
+</androidx.constraintlayout.widget.ConstraintLayout>

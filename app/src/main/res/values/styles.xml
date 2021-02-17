@@ -1,0 +1,38 @@
+<resources>
+    <style name="MorningTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#DD5F4F</item>
+        <item name="colorAccent">#ECC493</item>
+        <item name="android:windowBackground">#BD94B8</item>
+    </style>
+
+    <style name="MidnightTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#43325A</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/midnightAccent</item>
+        <item name="android:windowBackground">@color/darkBackground</item>
+    </style>
+
+    <style name="FrostyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/frostyAccent</item>
+        <item name="colorPrimaryDark">@color/frostyBackground</item>
+        <item name="colorAccent">@color/frostyAccent</item>
+        <item name="android:windowBackground">@color/midnightAccent</item>
+    </style>
+
+    <style name="ColorfulTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#456FEA</item>
+        <item name="colorPrimaryDark">@color/colorfulBackground</item>
+        <item name="colorAccent">#FF70CF</item>
+        <item name="android:windowBackground">@color/colorfulBackground</item>
+    </style>
+
+    <style name="BlackAndWhite" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/pureBlack</item>
+        <item name="colorAccent">@color/pureWhite</item>
+        <item name="colorPrimary">@color/pureBlack</item>
+        <item name="android:windowBackground">@color/pureBlack</item>
+    </style>
+
+</resources>
